@@ -1,0 +1,3 @@
+this is the content of writefile
+
+ Hello How  are u

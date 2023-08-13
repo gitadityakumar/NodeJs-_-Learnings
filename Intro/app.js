@@ -21,7 +21,7 @@ console.log("Hello Node");
 //i have added a configuration setting that will wipe out priviosly runned code.
 const os = require('os');
 const path = require('path')
-const {add,subtract,divide,multiply} = require('./math')
+const {add,subtract,divide,multiply} = require('./math')  //for information i am using object destructuring and u know it.
 
 //using imported functions
 
