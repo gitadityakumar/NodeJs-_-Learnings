@@ -1,0 +1,16 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "married": true,
+    "children": [
+      {
+        "name": "Jane Doe",
+        "age": 20
+      },
+      {
+        "name": "Peter Doe",
+        "age": 18
+      }
+    ]
+  }
+ 
