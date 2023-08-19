@@ -1,0 +1,11 @@
+JSON (JavaScript Object Notation) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays (or other serializable values). It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers.
+
+JSON is a lightweight data format that is easy for humans to read and write. It is also easy for machines to parse and generate. This makes it an ideal data format for exchanging data between different systems and applications.
+
+JSON is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. However, it is a language-independent data format and can be used with any programming language.
+
+The basic building blocks of JSON are:
+
+Objects: Objects are collections of key-value pairs. The key is a string and the value can be any type of data, including another object, an array, or a primitive value.
+Arrays: Arrays are ordered lists of values. The values can be any type of data, including objects and arrays.
+Primitive values: Primitive values are the basic data types of JSON, such as strings, numbers, booleans, and null.
