@@ -1,0 +1,10 @@
+# Notes of Nodejs
+
+## File System
+* [See Here](./Tute03/fileSystem.js)
+
+## How NodeJs works
+
+####  Node.js is a runtime environment that is known for its unique architecture. It follows an event-driven, non-blocking model, which means it efficiently handles multiple connections without getting bogged down by time-consuming I/O operations. At its core is the V8 JavaScript engine, originally developed by Google, which executes JavaScript code with remarkable speed. Node.js operates on a single-threaded event loop that continuously checks an event queue for incoming events and I/O operations, processing them one at a time. To ensure non-blocking behavior, Node.js relies on callbacks, executing code when asynchronous operations complete. It embraces the CommonJS module system for modular development, and its built-in libraries provide essential functionality for tasks like networking and file system operations. Node.js includes the Node Package Manager (NPM) for easy management of libraries and dependencies, and it's highly suitable for building scalable applications due to its support for clustering and the extensive ecosystem of libraries and frameworks available. Being cross-platform, Node.js can be used on a variety of operating systems, making it a versatile choice for developers.
+ * important information :
+ The default thread pool size in Node.js has changed over time. In older versions of Node.js, the default thread pool size was 4. However, starting from Node.js version 14.17.0, the default thread pool size has been increased to 8.This change was made to improve the performance of Node.js applications by providing a larger pool of workers to handle incoming requests and other tasks.It's worth noting that the thread pool size can still be adjusted using the UV_THREADPOOL_SIZE environment variable, as described in the previous answer.However, if you're using a recent version of Node.js, you may want to consider increasing the thread pool size beyond the default value to take advantage of modern CPU architectures with many cores.
